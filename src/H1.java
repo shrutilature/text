@@ -1,5 +1,16 @@
 public class H1 {
     public static void main(String args[]) {
-        System.out.println("hello vidunaya");
+       sub obj = new sub();
+       mul s = new mul();
+       div v = new div();
+       add m =new add();
+       int c = obj.substraction(3,2);
+       int d =s.multiplication(7,8);
+       int e =v.division(4,2);
+       int f =m.addition(7,1);
+       System.out.println("Substraction: "+c);
+       System.out.println("multiplication:"+d);
+       System.out.println("division:"+e);
+       System.out.println("addition:"+f);
     }
 }
